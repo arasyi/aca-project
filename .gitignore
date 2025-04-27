@@ -1,6 +1,65 @@
-# for projects that use SCons for building: http://http://www.scons.org/
-.sconsign.dblite
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
 
-# When configure fails, SCons outputs these
-config.log
-.sconf_temp
+# C/C++ object files and executables
+*.o
+*.so
+*.a
+*.out
+*.elf
+
+# SCons specific files (used by gem5 build)
+.sconsign.dblite
+.sconf_temp/
+
+# gem5 directory
+gem5/
+
+# gem5-resources directory
+gem5-resources/
+
+# Simulation output directory
+outputs/
+
+# Distribution / packaging
+*.egg-info/
+.eggs/
+dist/
+build/
+develop-eggs/
+parts/
+sdist/
+wheel/
+*.egg
+
+# Python virtual environment directories
+venv/
+env/
+.venv/
+*/venv/
+*/env/
+.*-env/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Editor/IDE specific files
+.vscode/
+.idea/
+*.swp
+*~
+*.bak
+
+# Log files (if any generated outside 'outputs')
+*.log
+
+# M5 temporary files (Sometimes used as default output if not specified)
+m5out/
+
+# Other potential build/dependency artifacts
+node_modules/
+*.gem
