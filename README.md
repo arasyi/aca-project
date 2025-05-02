@@ -123,16 +123,18 @@ After building (or downloading and extracting), you should have the following fi
 
 ```
 aca-project/
-├── gem5/                   # Cloned gem5 simulator source and build directory
-├── gem5-resources/         # Cloned gem5 resources source/build directory
-├── configs/                # gem5 simulation configuration scripts (adapted from MI200 examples)
-├── workloads/              # AI/ML workload scripts (Python)
+├── gem5/                       # Cloned gem5 simulator source and build directory
+├── gem5-resources/             # Cloned gem5 resources source/build directory
+├── configs/                    # gem5 simulation configuration scripts (adapted from MI200 examples)
+├── workloads/                  # AI/ML workload scripts (Python)
 │   ├── matrixmultiplication.py
 │   ├── linearregression.py
 │   └── mlpclassification.py
-├── outputs/                # Directory where simulation outputs (stats, etc.) are stored
-├── run-gem5-simulation.sh  # Main script to launch simulations
-└── README.md               # This file
+├── outputs/                    # Directory where simulation outputs (stats, etc.) are stored
+├── analysis.ipynb              # Sample jupyter notebook to analyze the simulation outputs 
+├── benchmark-all-workloads.sh  # Sample script to launch batch simulations
+├── run-gem5-simulation.sh      # Main script to launch simulations
+└── README.md                   # This file
 ```
 
 ## Workloads
