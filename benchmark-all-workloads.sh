@@ -31,9 +31,9 @@ GEM5_BIN="$GEM5_BUILD_DIR/gem5.opt"
 GEM5_CONFIG="configs/mi200.py"
 
 # gem5 resources paths
-RESOURCES_ROOT="gpufs-img"
-DISK_IMAGE="$RESOURCES_ROOT/x86-ubuntu-gpu-ml-isca"
-KERNEL="$RESOURCES_ROOT/vmlinux-gpu-ml-isca"
+RESOURCES_ROOT="gem5-resources"
+DISK_IMAGE="$RESOURCES_ROOT/src/x86-ubuntu-gpu-ml/disk-image/x86-ubuntu-gpu-ml"
+KERNEL="$RESOURCES_ROOT/src/x86-ubuntu-gpu-ml/vmlinux-gpu-ml"
 
 
 # Base directory for gem5 outputs
